@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "My roots"
+date:   2021-04-09 14:50:21 +0100
+categories: DevSetup
+---
+I've been facinated with computers since my older brothers let me play on their ZX Spectrum computers as a young boy. Listening to a tape player burble out fax like sounds for 30 mins and then, like magic, a game would appear on screen, was facinating to me. Most people would fill that gap of time with another activity but I was perfectly happy listening to the noise, so I'd be there the moment the screen came alive. My favourite game was called Sabatuer where your player, a ninja, was tasked with entering a building and stealing a disk with the names of the rebel leaders on it. Kids today would look back at this game and laugh at the poor quality but if you ever played it you'd know it was a thrilling experience all the same. 
+
+I'm not going to shy away from this, I'm an Apple guy, I've been sold on Apple products since the  first iPhone but before then was a different story. Before that time I was a Microsoft guy through and through. I'd been devoted to Microsoft since the day my brother got an Amstrad If you have used Apple products you'll be aware of their simplicity in both outward design but also in the their day to day use. Steve Jobs entire mantra was to simplify, remove unessary steps, remove clutter and barriers to make using the products as simple as possible to use. This simplicity exists inside the devices and their code as well and as a result 
+

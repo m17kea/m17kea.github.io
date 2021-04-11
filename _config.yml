@@ -15,14 +15,14 @@ timezone: Europe/London
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Programming with a CTO                          # the main title
+title: Everything as code                       # the main title
 
-tagline: Everything as code   # it will display as the sub-title
+tagline: Monalith to serverless   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  One CTO's journey from the Windows .Net Framework Monalith
+  to a modern serverless architecture using all the best bits 
+  from the serverless application generation
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://m17kea.github.io'
@@ -40,11 +40,11 @@ social:
   email: m17kea@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://twitter.com/m17kea      # change to your twitter homepage
+    - https://github.com/m17kea       # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    # - https://www.facebook.com/m17kea
+    - https://www.linkedin.com/in/m17kea
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 # --------------------------
