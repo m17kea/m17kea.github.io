@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Developer setup - the basics"
+date:   2021-04-10 14:50:21 +0100
+categories: DevSetup
+---
+
+
+
+
+
+https://d0.awsstatic.com/whitepapers/Security/aws-waf-owasp.pdf
+
+
+https://aws.amazon.com/solutions/implementations/aws-waf-security-automations/ 
