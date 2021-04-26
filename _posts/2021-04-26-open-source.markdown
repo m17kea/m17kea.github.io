@@ -5,14 +5,4 @@ date:   2021-04-10 14:50:21 +0100
 categories: DevSetup
 ---
 
-
-
-Blogging
-- dev.to
-- medium.com
-- discord.com
-- twitch
-- gitter
-
-Hacking 
-- huntr.dev
+https://aws.amazon.com/blogs/opensource/ 

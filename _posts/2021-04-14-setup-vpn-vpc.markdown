@@ -27,18 +27,57 @@ sudo apt-get install -y strong swan
 sudo nano /etc/ipsec.conf
 
 ```
-conn home-to-aws
- type=tunnel
- authby=secret
- #left=%defaultroute
- left=192.168.1.236
- leftid=81.156.224.240
- leftnexthop=%defaultroute
- leftsubnet=192.168.1.0/24
- right=52.47.119.151
- rightsubnet=10.0.0.0/16
- pfs=yes
- auto=start
+conn Tunnel1
+        auto=start
+        left=%defaultroute
+        leftid=86.183.146.3
+        right=54.221.250.218
+        type=tunnel
+        leftauth=psk
+        rightauth=psk
+        keyexchange=ikev1
+        ike=aes128-sha1-modp1024
+        ikelifetime=8h
+        esp=aes128-sha1-modp1024
+        lifetime=1h
+        keyingtries=%forever
+        leftsubnet=0.0.0.0/0
+        rightsubnet=0.0.0.0/0
+        dpddelay=10s
+        dpdtimeout=30s
+        dpdaction=restart
+        ## Please note the following line assumes you only have two tunnels in your Strongswan configuration file. This "mark" value must be unique and may need to be changed based on other entries in your configuration file.
+        mark=100
+        ## Uncomment the following line to utilize the script from the "Automated Tunnel Healhcheck and Failover" section. Ensure that the integer after "-m" matches the "mark" value above, and <VPC CIDR> is replaced with the CIDR of your VPC
+        ## (e.g. 192.168.1.0/24)
+        leftupdown="/etc/ipsec.d/aws-updown.sh -ln Tunnel1 -ll 169.254.236.62/30 -lr 169.254.236.61/30 -m 100 -r 10.0.0.0/16"
+
+conn Tunnel2
+        auto=start
+        left=%defaultroute
+        leftid=86.183.146.3
+        right=54.237.184.170
+        type=tunnel
+        leftauth=psk
+        rightauth=psk
+        keyexchange=ikev1
+        ike=aes128-sha1-modp1024
+        ikelifetime=8h
+        esp=aes128-sha1-modp1024
+        lifetime=1h
+        keyingtries=%forever
+        leftsubnet=0.0.0.0/0
+        rightsubnet=0.0.0.0/0
+        dpddelay=10s
+        dpdtimeout=30s
+        dpdaction=restart
+        ## Please note the following line assumes you only have two tunnels in your Strongswan configuration file. This "mark" value must be unique and may need to be changed based on other entries in your configuration file.
+        mark=200
+        ## Uncomment the following line to utilize the script from the "Automated Tunnel Healhcheck and Failover" section. Ensure that the integer after "-m" matches the "mark" value above, and <VPC CIDR> is replaced with the CIDR of your VPC
+        ## (e.g. 192.168.1.0/24)
+        leftupdown="/etc/ipsec.d/aws-updown.sh -ln Tunnel2 -ll 169.254.216.238/30 -lr 169.254.216.237/30 -m 200 -r 10.0.0.0/16"
+
+
 
 ```
 

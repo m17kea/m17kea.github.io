@@ -25,3 +25,17 @@ https://docs.aws.amazon.com/AmazonS3/latest/API/browser-based-uploads-aws-amplif
 https://aws-amplify.github.io/amplify-js/api/classes/authclass.html
 https://docs.amplify.aws/lib/storage/upload/q/platform/js#protected-level
 
+
+https://github.com/aws-samples/amazon-cognito-example-for-external-idp/blob/master/cdk/src/cdk.ts 
+
+https://serverless-stack.com/chapters/configure-cognito-user-pool-in-cdk.html
+https://serverless-stack.com/chapters/configure-cognito-identity-pool-in-cdk.html
+
+https://github.com/Sup-Sup123/BZ-Chat/blob/2d9322c2f3e232104b85f96de26184e9f25b28d7/app/scripts/voicemessage.js
+https://github.com/grishkovelli/vue-audio-recorder/blob/master/src/lib/recorder.js 
+https://quickblox.github.io/javascript-media-recorder/docs/QBMediaRecorder.html 
+
+# passing parameters to static site
+https://stackoverflow.com/questions/60074546/aws-cdk-passing-api-gateway-url-to-static-site-in-same-stack/66084764#66084764
+https://stackoverflow.com/questions/60074546/aws-cdk-passing-api-gateway-url-to-static-site-in-same-stack
+https://stackoverflow.com/questions/51401640/reading-environment-variable-in-run-time-after-running-npm-build-for-a-create-re/63836887#63836887

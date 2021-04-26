@@ -4,6 +4,13 @@ title:  "AWS Control Tower"
 date:   2021-04-10 14:50:21 +0100
 categories: DevSetup
 ---
+
+The CDK of CDKs
+https://activate.workshop.aws/
+https://github.com/awslabs/aws-bootstrap-kit
+https://github.com/aws-samples/aws-bootstrap-kit-examples 
+
+
 https://controltower.aws-management.tools/immersionday/
 https://aws.amazon.com/solutions/implementations/customizations-for-aws-control-tower/?did=sl_card&trk=sl_card
 
