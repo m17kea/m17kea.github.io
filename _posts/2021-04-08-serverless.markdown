@@ -5,6 +5,8 @@ date:   2021-04-10 14:50:21 +0100
 categories: DevSetup
 ---
 
+https://www.serverlessland.com 
+
 
 Thank you for being part of the AWS Startup Accelerate: Event-Driven Architectures on Serverless.
 

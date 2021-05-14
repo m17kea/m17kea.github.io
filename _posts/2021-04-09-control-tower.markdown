@@ -41,7 +41,7 @@ aws configure sso
 
 
 [profile cleancoders-sso]
-sso_start_url = https://d-9c67121f62.awsapps.com/start
+sso_start_url = https://cleancoders.awsapps.com/start
 sso_region = eu-west-2
 sso_account_id = 460804069377
 sso_role_name = AWSAdministratorAccess
@@ -65,4 +65,4 @@ credential_process = aws2-wrap --process --profile cleancoders-sso
 region = eu-west-2
 
 
-aws sso login --cleancoders-sso
+aws sso login --profile cleancoders-sso
