@@ -66,3 +66,7 @@ region = eu-west-2
 
 
 aws sso login --profile cleancoders-sso
+
+if you need credentials file entries
+
+aws2-wrap --generate --profile cleancoders-sso --credentialsfile ~/.aws/credentials --configfile ~/.aws/config --outprofile test
